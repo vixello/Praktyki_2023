@@ -3,7 +3,7 @@
 ## Odpowiedź na pytanie do zadania 1
 ## "Po 1 min powinien wyskoczyć błąd":
 
-tutaj pokazane ostatnie 15 sek animacji
+tutaj pokazane ostatnie 11 sek animacji
 
 ![ezgif com-video-to-gif (1)](https://github.com/vixello/Praktyki_2023/assets/79693214/66940a69-4c82-4ceb-97b7-12db46f8763b)
 
