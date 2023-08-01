@@ -5,8 +5,8 @@
 
 tutaj pokazane ostatnie 15 sek animacji
 
+![ezgif com-video-to-gif (1)](https://github.com/vixello/Praktyki_2023/assets/79693214/66940a69-4c82-4ceb-97b7-12db46f8763b)
 
-![ezgif com-video-to-gif](https://github.com/vixello/Praktyki_2023/assets/79693214/68e116e0-3f57-44b5-885d-f28195f14b39)
 
 ## Czym ta sytuacja różni się od normalnego działania GC:
 
