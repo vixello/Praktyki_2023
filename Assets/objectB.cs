@@ -38,7 +38,7 @@ public class objectB : MonoBehaviour
         // y = Bcos(bt)
         //A and B are 1f; 
 
-        float x = (radiusOfObjectA - 0.25F) * Mathf.Cos(a * time + delta);
+        float x = (radiusOfObjectA - 0.25F) * Mathf.Sin(a * time + delta);
         float y = Mathf.Sin(b * time);
 
         Vector3 positionOfA = objectA.transform.position;
