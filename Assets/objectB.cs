@@ -34,8 +34,8 @@ public class objectB : MonoBehaviour
         
    
         time += Time.deltaTime * movementSpeed;
-        // x = Acos(at + delta)
-        // y = Bcos(bt)
+        // x = Asin(at + delta)
+        // y = Bsin(bt)
         //A and B are 1f; 
 
         float x = (radiusOfObjectA - 0.25F) * Mathf.Sin(a * time + delta);
