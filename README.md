@@ -11,7 +11,7 @@
 
 Ruch obiektu B rozpoczyna się z innego miejsca na krzywej przy każdej zmianie wartości. Wizualnie porusza się podobnie aż do wartości (z podanych przykładowo) 100 000 włącznie. Wyniki obliczeń ( time += Time.deltaTime * movementSpeed;) są jednak mniej dokładne i można to też zauważyć dla mniejszej wartości 10 000, kiedy wyniki powtarzają się np. 2 razy pod rząd. Im większa wartość początkowa, tym sytuacja się pogarsza i np. dla 100 000 potwarzają się już nawer kilkanaście razy, dla 500 000 kilkaset, kilka tysięcy razy, można zaobserwować też niepłynny ruch obiektu. Dla 1 000 000 i 8 000 000 wyniki powtarzają się tak często, że ruch obiektu prawie nie występuje. 
 
-Ponieważ w grach ważne jest to, żeby rozgrywka /ruch były płynne i responsywne, a nie przerywane (o ile nie jest to celowe), powinno się unikać sytuacji, kiedy dodaje lub odejmuje się liczby znacznie różniące się rzędem wielkości, tak jak w przypadku time += Time.deltaTime * movementSpeed; dla dużych wartości początkowych time.
+Ponieważ w grach ważne jest to, żeby rozgrywka /ruch były płynne i responsywne, a nie przerywane (o ile nie jest to celowe), powinno się unikać sytuacji, kiedy dodaje lub odejmuje się liczby zmiennoprzecinkowe znacznie różniące się rzędem wielkości, tak jak w przypadku time += Time.deltaTime * movementSpeed; dla dużych wartości początkowych time.
 
 ## Odpowiedź na pytanie do zadania 2
 
