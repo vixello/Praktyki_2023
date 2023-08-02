@@ -1,5 +1,31 @@
 # Praktyki_2023
+## 02.08.2023
+## Odpowiedź na pytanie do zadania 1
 
+**Przetestowanie zachowanie krzywej Lissajous dla różnych wartości początkowych time. Na przykład 1000, 10_000, 100_000, 500_000, 1_000_000, 8_000_000.** 
+
+**Jak to zmienia zachowanie obiektu?**
+
+**Jakie ma to konsekwencja przy tworzeniu gier?**
+
+
+Ruch obiektu B rozpoczyna się z innego miejsca na krzywej przy każdej zmianie wartości. Wizualnie porusza się podobnie aż do wartości (z podanych przykładowo) 100 000 włącznie. Wyniki obliczeń ( time += Time.deltaTime * movementSpeed;) są jednak mniej dokładne i można to też zauważyć dla mniejszej wartości 10 000, kiedy wyniki powtarzają się np. 2 razy pod rząd. Im większa wartość początkowa, tym sytuacja się pogarsza i np. dla 100 000 potwarzają się już nawer kilkanaście razy, dla 500 000 kilkaset, kilka tysięcy razy, można zaobserwować też niepłynny ruch obiektu. Dla 1 000 000 i 8 000 000 wyniki powtarzają się tak często, że ruch obiektu prawie nie występuje. 
+
+Ponieważ w grach ważne jest to, żeby rozgrywka /ruch były płynne i responsywne, a nie przerywane (o ile nie jest to celowe), powinno się unikać sytuacji, kiedy dodaje lub odejmuje się liczby znacznie różniące się rzędem wielkości, tak jak w przypadku time += Time.deltaTime * movementSpeed; dla dużych wartości początkowych time.
+
+## Odpowiedź na pytanie do zadania 2
+
+**Czy wynik obliczeń jest taki sam przy kolejnych uruchomieniach programu?**
+
+**Czy wynik obliczeń jest taki sam na PC i na Androidzie?**
+
+**Jakie to ma konsekwencja przy tworzeniu gier?**
+
+1. Tak, wynik obliczeń jest taki sam ze względu na użycie własnej stałej wartości seed.
+2. Wygenerowane liczby są takie same dla PC i Androida
+3. Jeżeli sami ustawimy wartość seed, możemy użyć wygenerowanych za każdym razem takich samych danych do tworzenia poziomów generowanych proceduralnie. Dzięki temu możemy wygenerwoać x poziomów dla x seedów i zaoszczędzić na wykorzystywanej przez grę pamięci przez zapisanie owych poziomów w postaci zmiennych int, czyli zapisanych wartości seedó
+
+## 01.08.2023
 ## Odpowiedź na pytanie do zadania 1
 ## "Po 1 min powinien wyskoczyć błąd":
 
