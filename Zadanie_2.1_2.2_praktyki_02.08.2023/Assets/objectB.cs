@@ -9,14 +9,13 @@ public class objectB : MonoBehaviour
     public float a = 1f;
     public float b = 2f;
     public float delta = Mathf.PI / 2f;
-    public float time = 100000f;
+    public float time = 0f;
     float movementSpeed = 2f;
 
     // Start is called before the first frame update
     void Start()
     {
         time = 500000f;
-        Debug.Log("Time " + time);
 
     }
 
