@@ -23,7 +23,7 @@ Ponieważ w grach ważne jest to, żeby rozgrywka /ruch były płynne i responsy
 
 1. Tak, wynik obliczeń jest taki sam ze względu na użycie własnej stałej wartości seed.
 2. Wygenerowane liczby są takie same dla PC i Androida
-3. Jeżeli sami ustawimy wartość seed, możemy użyć wygenerowanych za każdym razem takich samych danych do tworzenia poziomów generowanych proceduralnie. Dzięki temu możemy wygenerwoać x poziomów dla x seedów i zaoszczędzić na wykorzystywanej przez grę pamięci przez zapisanie owych poziomów w postaci zmiennych int, czyli zapisanych wartości seedó
+3. Jeżeli sami ustawimy wartość seed, możemy użyć wygenerowanych za każdym razem takich samych danych do tworzenia poziomów (lub też innych części gry) generowanych proceduralnie. Dzięki temu możemy wygenerwoać x poziomów dla x seedów i zaoszczędzić na wykorzystywanej przez grę pamięci przez zapisanie owych poziomów w postaci zmiennych int, czyli zapisanych wartości seedó
 
 ## 01.08.2023
 ## Odpowiedź na pytanie do zadania 1
