@@ -3,6 +3,16 @@
 ## 03.08.2023
 
 ## Zadanie 3
+
+Animacja z animation curves
+
+![ezgif com-video-to-gif (2)](https://github.com/vixello/Praktyki_2023/assets/79693214/a4401606-3baf-4aab-8839-29027596b8e9)
+
+Animacja z kodu
+
+![ezgif com-video-to-gif (3)](https://github.com/vixello/Praktyki_2023/assets/79693214/8468c3b3-7634-47f7-a709-a53e6810e041)
+
+
 fps bez limitu 
 
 ![image](https://github.com/vixello/Praktyki_2023/assets/79693214/86d29e79-f7ac-4e82-8550-dbe644eac572)
