@@ -1,4 +1,14 @@
 # Praktyki_2023
+
+## 03.08.2023
+
+## Zadanie 3
+
+![image](https://github.com/vixello/Praktyki_2023/assets/79693214/86d29e79-f7ac-4e82-8550-dbe644eac572)
+
+Dla animacji używającej animation curve fps dla małej ilości obiektów był podobne do animacji odtworzonej kodem.
+
+
 ## 02.08.2023
 ## Odpowiedź na pytanie do zadania 1
 
