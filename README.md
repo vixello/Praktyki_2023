@@ -3,10 +3,18 @@
 ## 03.08.2023
 
 ## Zadanie 3
+fps bez limitu 
 
 ![image](https://github.com/vixello/Praktyki_2023/assets/79693214/86d29e79-f7ac-4e82-8550-dbe644eac572)
 
-Dla animacji używającej animation curve fps dla małej ilości obiektów był podobne do animacji odtworzonej kodem.
+Dla animacji używającej animation curve fps dla małej ilości obiektów był podobne do animacji odtworzonej kodem. Niekiedy wypada jedna lepiej od drugiej lub odwrotnie.
+
+
+Dla większyk ilości:
+
+![image](https://github.com/vixello/Praktyki_2023/assets/79693214/338a0aff-78bc-4aeb-b7ec-ba8651b66757)
+
+Jest też podobnie, chociaż dla 100 i 10000 animacja z kodu wypada lepiej. 
 
 
 ## 02.08.2023
