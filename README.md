@@ -27,6 +27,9 @@ Dla większyk ilości:
 Jest też podobnie, chociaż dla 100 i 10000 animacja z kodu wypada lepiej. 
 
 
+![image](https://github.com/vixello/Praktyki_2023/assets/79693214/6f2971d6-91a9-4dcf-9b4c-c1b41a1fa2cc)
+
+
 ## 02.08.2023
 ## Odpowiedź na pytanie do zadania 1
 
