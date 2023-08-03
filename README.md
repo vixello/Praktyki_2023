@@ -16,5 +16,8 @@ tutaj pokazane ostatnie 15 sek animacji
 can only access a reference item on the heap as long as there are still reference variables that can locate it. If all references to a memory block are missing (if the reference variables have been reassigned or if they’re local variables that are now out of scope) then the garbage collector can reallocate the memory it occupied."
 src: https://docs.unity3d.com/Manual/performance-garbage-collector.html
 
-**Usuwając funkcji Destroy usuwany obiekt wciąż pozostaje w pamięci dopóki nie zwolni jej GC.
-Ponieważ istnieje referencja do usuwanego obiektu, nie zostanie on oznaczony przez GC jako gotowy do usunięcia i zwolnienia pamięci, pozostanie w niej, dopóki wszystkie odniesienia do niego nie zostaną usunięte.**
+~~Usuwając funkcji Destroy usuwany obiekt wciąż pozostaje w pamięci dopóki nie zwolni jej GC.
+Ponieważ istnieje referencja do usuwanego obiektu, nie zostanie on oznaczony przez GC jako gotowy do usunięcia i zwolnienia pamięci, pozostanie w niej, dopóki wszystkie odniesienia do niego nie zostaną usunięte.~~
+
+Poprawka:
+Funkcja dsetroy oprócz działania jako delete ale także ustawia referencję do usuwanego gameobjectu jako null. W GC obiekt normalnie istnieje/ żyje tak długo, jak długo są do niego referencje.
